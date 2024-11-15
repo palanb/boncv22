@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: #1e90ff;
+    padding: 1rem;
+    display: flex;
+    gap: 15px;
+}
+
+nav span, nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#lock-screen, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+iframe {
+    border: none;
+}
